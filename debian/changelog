@@ -1,0 +1,61 @@
+golang-github-alecthomas-units (0.0~git20201120.1786d5e-1) unstable; urgency=medium
+
+  * Team upload.
+  * Update uscan watch file to track head version
+  * New upstream version 0.0~git20201120.1786d5e
+  * Remove golang-github-stretchr-testify-dev from Depends.
+    Only for testing
+  * Bump debhelper-compat to 13
+  * Update Standards-Version to 4.5.1 (no changes)
+  * Update Section to golang
+  * Add Rules-Requires-Root
+
+ -- Shengjing Zhu <zhsj@debian.org>  Thu, 26 Nov 2020 02:33:08 +0800
+
+golang-github-alecthomas-units (0.0~git20151022.0.2efee85-5) UNRELEASED; urgency=low
+
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+ -- Debian Janitor <janitor@jelmer.uk>  Sat, 06 Jun 2020 10:58:36 -0000
+
+golang-github-alecthomas-units (0.0~git20151022.0.2efee85-4) unstable; urgency=medium
+
+  [ Alexandre Viau ]
+  * Point Vcs-* urls to salsa.debian.org.
+
+  [ Jelmer Vernooĳ ]
+  * Use secure copyright file specification URI.
+
+  [ Peter Colberg ]
+  * Bump debhelper compat level to 11
+  * Set Priority to optional as per policy 4.0.1
+  * Set Testsuite to autopkgtest-pkg-go
+  * Update Standards-Version to 4.2.1
+  * Update Maintainer address
+  * Drop ${shlibs:Depends} from -dev package
+
+ -- Peter Colberg <peter@colberg.org>  Sat, 24 Nov 2018 11:23:37 -0500
+
+golang-github-alecthomas-units (0.0~git20151022.0.2efee85-3) unstable; urgency=medium
+
+  * Bump debhelper compat level to 10
+  * Build-depend on golang-any instead of golang-go
+  * Drop dependency on golang-go from -dev package
+  * Update Standards-Version to 3.9.8
+
+ -- Peter Colberg <peter@colberg.org>  Sat, 19 Nov 2016 23:22:31 -0500
+
+golang-github-alecthomas-units (0.0~git20151022.0.2efee85-2) unstable; urgency=medium
+
+  * Remove Built-Using field from -dev package
+
+ -- Peter Colberg <peter@colberg.org>  Sat, 24 Sep 2016 00:08:23 -0400
+
+golang-github-alecthomas-units (0.0~git20151022.0.2efee85-1) unstable; urgency=medium
+
+  * Initial release (Closes: #817095)
+
+ -- Peter Colberg <peter@colberg.org>  Sun, 27 Mar 2016 17:28:56 +1100
